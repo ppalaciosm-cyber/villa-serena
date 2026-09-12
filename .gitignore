@@ -1,0 +1,30 @@
+# dependencias
+node_modules/
+.pnpm-store/
+
+# builds
+dist/
+build/
+.next/
+.expo/
+coverage/
+
+# entorno
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# prisma
+apps/api/prisma/*.db
